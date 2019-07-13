@@ -1,0 +1,107 @@
+.image {
+    background-image: url("home.jpg");
+    height:100em; background-size:cover; width:auto;
+    background-position:50% 50%;
+
+}
+.main h1 {
+    text-align: center;
+    color: #24333C;
+    font-size: 2.5em;
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: #212121;
+    padding-top: 1em;
+}
+.card-group {
+    width: 85% !important;
+}
+.card {
+    align-items: center;
+    box-shadow: 0 3px 20px 0 rgba(44,37,37,.13);
+    border-radius: 2px;
+    background: white !important;
+}
+.left img {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+    border: 3px solid #24333C;
+    
+}
+.name {
+    float: left;
+    color: #999;
+}
+#name {
+    font-weight: 400;
+    color: black;
+}
+.card-text {
+    color: #999;
+
+}
+.cardt {
+    color: #24333C;
+}
+.right {
+    background-image: url("right_grid.jpg") !important;
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+    color: white;
+}
+
+.cardmain {
+    margin-top: 20px;
+}
+.right-card {
+    margin-top: 30px;
+    padding: 1em;
+    background: rgba(255, 255, 255, 0.33) !important;
+}
+
+.item {
+    padding: 0.5em 1em;
+    border-bottom: 1px dotted #d9d9d9;
+    float: left;
+    
+}
+.item1 {
+    border-left: 4px solid #34eef7;
+}
+.item2 {
+    border-left: 4px solid red;
+}
+.item3 {
+    border-left: 4px solid lightgreen;
+}
+.tech {
+    color: #fff883;
+    font-weight: 600;
+}
+footer {
+    background: none;
+    padding: 10px 0;
+    text-align: center;
+  }
+  footer a {
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    border-right: 1px solid #70726F;
+    transition: all .5s ease;
+  }
+  footer a:first-child {
+    border-left: 1px solid #70726F;
+  }
+  footer a:hover {
+    color: white;
+  }
+  .container {
+      margin-top: 20px;
+  }
